@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Titan Hub</title>
+
+    <!-- CSS Bootsrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS External -->
+    <link rel="stylesheet" href="./Style/style.css" />
+
+    <!-- Link Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gabarito&family=Pixelify+Sans&family=Playfair+Display:wght@400;500;700&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Link Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg shadow-sm fixed-top bg-black">
+      <div class="container">
+        <a class="navbar-brand fw-bold d-flex align-items-center fs-3" href="#">
+          <img src="./Image/Logo Titan Hub.png" alt="Logo" width="60" height="58" class="d-inline-block rounded-5 align-text-top">
+          <span class="ms-3 text-white">TITAN HUB</span>
+        </a>
+        <!-- <a class="navbar-brand fw-bold fs-3" href="#">TITAN HUB </a> -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-white fs-5 fw-bold" href="#home">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link text-white fs-5 fw-bold m-0 ms-lg-3"
+                href="#member"
+                >Member</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link text-white fs-5 fw-bold m-0 ms-lg-3"
+                href="#about"
+                >About</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link text-white fs-5 fw-bold m-0 ms-lg-3"
+                href="#trainers"
+                >Trainers</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link text-white fs-5 fw-bold m-0 ms-lg-3"
+                href="#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Start -->
+    <section id="home" class="home"> 
+      <div class="container vh-100 justify-content-center d-flex p-3 ">
+        <div class="row mt-5 align-items-center">
+          <div class="col-12 col-lg-6">
+            <h1 style="font-size: 3.8em" class="ms-3 text-white ">
+              Get your fit and strong TITAN BODY <br />
+              with TITAN HUB
+            </h1>
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
+              <div class="carousel-inner rounded-4">
+                <div class="carousel-item active" data-bs-interval="3000">
+                  <img
+                    src="./Image/gym1.png"
+                    class="d-block w-100 rounded-4"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img
+                    src="./Image/gym2.png"
+                    class="d-block w-100 rounded-4"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img
+                    src="./Image/gym3.png"
+                    class="d-block w-100 rounded-4"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img
+                    src="./Image/gym4.jpg"
+                    class="d-block w-100 rounded-4"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExample"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExample"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero End -->
+
+    <!-- Member Start -->
+    <section id="member" class="member"> 
+      <div class="container p-3 bg-body-tertiary">
+        <div class="title text-center mb-4">
+          <h1 class="fw-bold mb-5" style="font-size: 3em;" >Our Membership</h1>
+        </div>
+
+        <div class="row justify-content-center text-center gap-5">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card ">
+              <div class="card-body">
+                <h4 class="card-title fw-bold">Original Membership</h4>
+                <p>Suitable for who want to go to the gym regularly</p>
+                <span>Rp</span>
+                <span class="fw-bold" style="font-size: 2.8em">300.000</span>
+                <span>/months</span> <br />
+                <br />
+                <ul class="text-start">
+                  <li>No need to pay daily</li>
+                  <li>Full access to gym facilities</li>
+                  <li>Welcome to utilize the gym facilities until midnight</li>
+                </ul> <br> <br>
+
+                <a href="#" class="fw-bold btn btn-dark">Decide on This</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title fw-bold">Training Membership</h4>
+                <p>Train specifically and regularly with our coach</p>
+                <span>Rp</span>
+                <span class="fw-bold" style="font-size: 2.8em">300.000</span>
+                <span>/months</span> <br />
+                <br />
+                <ul class="text-start">
+                  <li>Personal coach</li>
+                  <li>Regular training schedule</li>
+                  <li>Training program that suits you</li>
+                  <li>Nutrition consultation</li>
+                </ul> <br> <br>
+
+                <a href="#" class="fw-bold btn btn-dark">Decide on This</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title fw-bold">Package Membership</h4>
+                <p>Be active members and train regularly</p>
+                <span>Rp</span>
+                <span class="fw-bold" style="font-size: 2.8em">300.000</span>
+                <span>/months</span> <br />
+                <br />
+                <ul class="text-start">
+                  <li>Personal coach</li>
+                  <li>Regular training schedule</li>
+                  <li>Training program that suits you</li>
+                  <li>Full access to both membership</li>
+                </ul> <br> <br>
+
+                <a href="#" class="fw-bold btn btn-dark">Decide on This</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Member End -->
+
+    <!-- About Start -->
+    <section id="about" class="about"> 
+      <div class="container p-3 bg-light">
+        <div class="title text-center mb-4">
+          <h1 class="p-5 fw-bold" style="font-size: 3em;" >About Titan Hub</h1>
+        </div>
+        <div class="row gy-3 align-items-center">
+          <div class="col-12 col-lg-6">
+            <img
+              src="./Image/about.png"
+              class="img-fluid"
+              alt=""
+              style="border-radius: 10px"
+            />
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <p style="text-align: center" class="fw-bolder">
+              Titan Hub, established in 2015, stands as a fitness haven,
+              dedicated to the pursuit of strength and well-being. With a legacy
+              of over six years, it has become an emblem of dedication, offering
+              state-of-the-art equipment and expert guidance to its members. The
+              gym prides itself on fostering a vibrant community of fitness
+              enthusiasts who share a common commitment to achieving their
+              fitness goals. Titan Hub is not just a place to work out; it's a
+              destination where individuals embark on transformative fitness
+              journeys, where sweat and determination converge to sculpt
+              stronger, healthier lives. Nestled in the heart of the city, Titan
+              Hub welcoming environment and cutting-edge facilities make it a
+              fitness sanctuary that has consistently evolved to meet the
+              ever-changing needs of its members. With a rich history and a
+              passion for fitness, Titan Hub continues to inspire and empower
+              its community, remaining a timeless symbol of dedication and
+              excellence in the world of fitness and well-being.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About End -->
+
+    <!-- Sub Unit Start -->
+    <section id="about" class="sub_unit"> 
+      <div class="container bg-secondary">
+        <div class="title text-center mb-4 p-2">
+          <h1 class="fw-bold" style="font-size: 3em;" >Sub Unit</h1>
+        </div>
+
+        <div class="row gap-4 gy-2 p-3 justify-content-center">
+          <div class="col-12 col-md-6 col-lg-2">
+            <div
+              class="box d-flex border border-2 border-dark w-100 rounded p-3 gap-3 align-items-center"
+            >
+              <div class="logo border border-dark p-2 rounded bg-light">
+                <i class="fa-solid fa-dumbbell fs-2"></i>
+              </div>
+              <span class="fs-5">Weightlift</span>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-2">
+            <div
+              class="box d-flex border border-2 border-dark rounded p-3 gap-3 align-items-center"
+            >
+              <div class="logo border border-dark p-2 rounded bg-light">
+                <i class="fa-solid fa-wifi fs-2"></i>
+              </div>
+              <span class="fs-5">Yoga</span>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-2">
+            <div
+              class="box d-flex border border-2 border-dark rounded p-3 gap-3 align-items-center"
+            >
+              <div class="logo border border-dark p-2 rounded bg-light">
+                <i class="fa-solid fa-person-running fs-2"></i>
+              </div>
+              <span class="fs-5">Zumba</span>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 mb-4 col-lg-2">
+            <div
+              class="box d-flex border border-2 border-dark rounded p-3 gap-3 align-items-center"
+            >
+              <div class="logo border border-dark p-2 rounded bg-light">
+                <i class="fa-solid fa-user-ninja fs-2"></i>
+              </div>
+              <span class="fs-5">Boxing</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Sub Unit End -->
+
+    <!-- Trainers Start -->
+    <section id="trainers"> 
+      <div class="container p-3 bg-light">
+        <div class="title text-center mb-4">
+          <h1 class="fw-bold" style="font-size: 3em;" >Trainers</h1>
+        </div>
+
+        <!-- Carousel Card Start -->
+       
+        <div id="carouselCoach" class="carousel slide carousel-dark" data-bs-ride="carousel" data-bs-touch="true">
+          <div class="carousel-inner" >
+            <div class="carousel-item active" data-bs-interval="3000">
+              <div class="container d-flex justify-content-center">
+                <div class="card mb-3" style="max-width: 540px">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img
+                        src="./Image/luke zocchi.jpg"
+                        class="img-fluid rounded-start"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title fs-4 fw-bold">
+                          Weightlift Trainer
+                        </h5>
+                        <h6 class="fw-bold">Luke Zocchi</h6>
+                        <p class="card-text">
+                          This is a wider card with supporting text below as a
+                          natural lead-in to additional content. This content is
+                          a little bit longer.
+                        </p>
+                       
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item" data-bs-interval="3000">
+              <div class="container d-flex justify-content-center">
+                <div class="card mb-3" style="max-width: 540px">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img
+                        src="./Image/cristi christensen.jpg"
+                        class="img-fluid rounded-start"
+                        alt="..."
+                      />
+                    </div>
+
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title fs-4 fw-bold">Yoga Trainer</h5>
+                        <h6 class="fw-bold">Cristi Christensen</h6>
+                        <p class="card-text">
+                          This is a wider card with supporting text below as a
+                          natural lead-in to additional content. This content is
+                          a little bit longer.
+                        </p>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item" data-bs-interval="3000">
+              <div class="container d-flex justify-content-center">
+                <div class="card mb-3" style="max-width: 540px">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img
+                        src="./Image/freddie roach.jpg"
+                        class="img-fluid rounded-start"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title fs-4 fw-bold">Boxing Trainer</h5>
+                        <h6 class="fw-bold">Freddie Roach</h6>
+                        <p class="card-text">
+                          This is a wider card with supporting text below as a
+                          natural lead-in to additional content. This content is
+                          a little bit longer.
+                        </p>
+                       
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item" data-bs-interval="3000">
+              <div class="container d-flex justify-content-center">
+                <div class="card mb-3" style="max-width: 540px">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img
+                        src="./Image/vijaya tupurani.jpeg"
+                        class="img-fluid rounded-start"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title fs-4 fw-bold">Zumba Trainer</h5>
+                        <h6 class="fw-bold">Vijaya Tupurani</h6>
+                        <p class="card-text">
+                          This is a wider card with supporting text below as a
+                          natural lead-in to additional content. This content is
+                          a little bit longer.
+                        </p>
+                      
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselCoach"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselCoach"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+       
+      </div>
+    </section>
+    <!-- Carousel Card End -->
+    <!-- Trainers End -->
+
+    <!-- FAQ Start -->
+    <section id="trainers" class="faq"> 
+      <div class="container p-3">
+        <div class="title text-center">
+          <h1 class="fw-bold mb-4 p-4" style="font-size: 3em;" >Frequently Ask Question</h1>
+        </div>
+
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed fw-bold"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                How do I register for Titan Hub membership?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body" style="text-align: justify">
+                To register as a member at Titan Hub, simply follow these steps:
+                Visit our facility or contact us to receive membership
+                information. Choose the membership type that suits you, complete
+                the registration form with your personal details, and agree to
+                our terms and conditions, including facility usage rules and the
+                cancellation policy. Once you've submitted the form and paid the
+                membership fee, we'll provide you with a membership card,
+                allowing you to begin your training immediately. If you have any
+                questions or need assistance, our team is here to help
+                throughout the registration process.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed fw-bold"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                What additional facilities can Titan members enjoy? Hub?
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body" style="text-align: justify">
+                In addition to access to the main facilities, our members can
+                enjoy additional facilities such as fitness classes, nutrition
+                consultations, and discounts on certain fitness products.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed fw-bold"
+                type="button"
+                data-bs-toggle="collapse"
+                3
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Is it permissible to choose more than one membership training
+                class on Titan Hub?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body" style="text-align: justify">
+                For training membership, you get all class access which exists.
+                Therefore, you are allowed to attend the class anything when you
+                have registered as a training membership.
+              </div>
+            </div>
+          </div>
+        </div>
+        <br> <br> <br> <br>
+      </div>
+    </section>
+    <!-- FAQ End -->
+
+    <!-- Contact Start -->
+    <section id="contact" class="contact"> 
+      <div class="container p-3 bg-white">
+        <div class="title text-center mb-3 ">
+          <h1 class="fw-bold" style="font-size: 3em;" >Contact Us</h1>
+        </div>
+
+        <form>
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <div class="mb-3">
+                <la3bel for="exampleInputEmail1" class="form-label fw-bold"
+                  >Email Address</label
+                >
+                <input
+                  type="email"
+                  class="form-control p-3 border-3"
+                  id="exampleInputEmail1"
+                  placeholder="youremail@gmail.com"
+                />
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label fw-bold"
+                  >Phone Number</label
+                >
+                <input
+                  type="text"
+                  class="form-control p-3 border-3"
+                  placeholder="081347613465"
+                />
+              </div>
+            </div>
+
+            <div class="col-12">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label fw-bold"
+                  >Your Messages</label
+                >
+                <textarea
+                  class="form-control p-3 border-3"
+                  placeholder="Your Messages"
+                ></textarea>
+              </div>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-dark fw-bold">Submit</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact End -->
+
+    <!-- Support Start -->
+    <section id="contact" class="support">
+      <div class="container bg-secondary p-5">
+        <h1 class="text-center fw-bold mb-5" style="font-size: 3em;" >Our Support</h1>
+
+        <div class="row justify-content-center d-flex">
+          <div class="col-12 col-lg-4 ">
+            <h4 class="fw-bold">Titan Hub Fitness Management, LLC</h4>
+
+            <h6>123 Main Street <br>
+              Suite 456 <br>
+              New York, NY 10001 <br>
+              United States</h6> <br>
+
+            <h4 class="fw-bold">Whatsapp</h4>
+            <h6>081347613465</h6>
+
+            <h4 class="fw-bold">Email</h4>
+            <h6>titanhub@gmail.com</h6>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <h4 class="fw-bold">Jam Operasional</h4>
+
+            <h6>Senin - Jumat : 06:00 - 22:00 <br>
+              Sabtu : 06:00 - 21:00 <br>
+              Minggu : 08:00 - 20:00 <br>
+              </h6> <br>
+
+            <h5 class="fw-bold">Libur Nasional (Senin-Jumat) : 10:00 - 18:00</h5>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <h4 class="fw-bold">Find Us</h4>
+            
+            <i class="fab fa-instagram"></i>
+            <span>titan.hub.gym</span> <br> <br>
+
+            <i class="fab fa-tiktok"></i>
+            <span>titan_hub_gym</span> <br> <br>
+
+            <i class="fab fa-facebook-square"></i>
+            <span>TitanHubGym</span> <br> <br>
+          </div>
+        </div>
+        <br> <br> <br> <br> <br> <br>
+      </div>
+    </section>
+    <!-- Support End -->
+
+    <!-- Footer Start -->
+    <footer class="p-4 text-white fw-bold text-end">
+      Copyright &copy; 2023 TITAN HUB. All Right Reserved
+    </footer>
+    <!-- Footer End -->
+
+    <!-- JS Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

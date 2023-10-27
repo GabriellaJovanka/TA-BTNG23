@@ -1,0 +1,133 @@
+* {
+  /* font-family: "Gabarito", sans-serif;
+  font-family: "Pixelify Sans", sans-serif; */
+  font-family: "Playfair Display", serif;
+  /* font-family: "Poppins", sans-serif; */
+}
+
+body {
+  background-color: black;
+}
+
+.nav-item a:hover {
+  color: black !important;
+  background: rgb(93, 224, 230);
+  background: linear-gradient(
+    90deg,
+    rgba(93, 224, 230, 1) 0%,
+    rgba(0, 74, 173, 1) 100%
+  );
+  border-radius: 40px;
+  border: transparent;
+}
+
+.home .container {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 1%,
+    rgba(8, 59, 61, 1) 16%,
+    rgba(93, 224, 230, 1) 39%,
+    rgba(0, 74, 173, 1) 100%
+  );
+}
+
+.member .container {
+  background: rgb(93, 224, 230);
+  background: linear-gradient(
+    360deg,
+    rgba(93, 224, 230, 1) 0%,
+    rgba(0, 74, 173, 1) 100%
+  );
+}
+
+.about .container {
+  background: rgb(93, 224, 230);
+  background: linear-gradient(
+    180deg,
+    rgba(93, 224, 230, 1) 0%,
+    rgba(0, 74, 173, 1) 100%
+  );
+}
+
+.sub_unit .container {
+  background: rgb(93, 224, 230);
+  background: linear-gradient(
+    360deg,
+    rgba(93, 224, 230, 1) 0%,
+    rgba(0, 74, 173, 1) 100%
+  );
+}
+
+#trainers > .container {
+  background: rgb(93, 224, 230);
+  background: linear-gradient(
+    180deg,
+    rgba(93, 224, 230, 1) 0%,
+    rgba(0, 74, 173, 1) 100%
+  );
+}
+
+/* .carousel_container {
+  background-color: red !important; 
+} */
+
+.faq .container {
+  background: rgb(93, 224, 230);
+  background: linear-gradient(
+    360deg,
+    rgba(93, 224, 230, 1) 0%,
+    rgba(0, 74, 173, 1) 100%
+  ) !important;
+}
+
+.contact .container {
+  background: rgb(93, 224, 230);
+  background: linear-gradient(
+    180deg,
+    rgba(93, 224, 230, 1) 0%,
+    rgba(0, 74, 173, 1) 100%
+  );
+}
+
+.support .container {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    360deg,
+    rgba(0, 0, 0, 1) 1%,
+    rgba(8, 59, 61, 1) 16%,
+    rgba(93, 224, 230, 1) 39%,
+    rgba(0, 74, 173, 1) 100%
+  );
+}
+
+footer {
+  background-color: black !important;
+}
+
+.btn-dark:hover {
+  background: rgb(93, 224, 230);
+  background: linear-gradient(
+    90deg,
+    rgba(93, 224, 230, 1) 0%,
+    rgba(0, 74, 173, 1) 100%
+  );
+  border: 2px solid black;
+}
+
+/* .navbar {
+  background: rgba(255, 255, 255, 0.8); 
+  backdrop-filter: blur(
+    10px
+  ); 
+  -webkit-backdrop-filter: blur(10px); 
+} */
+/* Warna latar belakang transparan */
+/* Efek blur dengan intensitas 10px (sesuaikan sesuai keinginan) */
+/* Untuk browser Safari */
+
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  .home .container .row .col-12 h1 {
+    font-size: 3em !important;
+  }
+}
